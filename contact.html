@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Ironpost</title>
+  <meta name="description" content="Contact the Ironpost team for sales, support or security reports.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="logo" href="index.html" aria-label="Ironpost home">Iron<span>post</span></a>
+      <!-- CSS-only burger: the hidden checkbox stores open/closed, the label is the icon you click.
+           On small screens, .menu-toggle:checked ~ .nav shows the links. -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+      <label for="menu-toggle" class="burger"><i class="fa-solid fa-bars" aria-hidden="true"></i></label>
+      <nav class="nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="wrap">
+        <h1>Contact</h1>
+        <p>Questions about security or pricing? Send us a message and we will reply within one working day.</p>
+      </div>
+    </section>
+    <div class="wrap methods">
+        <article class="method">
+          <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+          <h2>Sales</h2>
+          <p>Plans, demos and custom quotes.</p>
+          <a href="mailto:sales@ironpost.example">sales@ironpost.example</a>
+        </article>
+        <article class="method">
+          <i class="fa-solid fa-headset" aria-hidden="true"></i>
+          <h2>Support</h2>
+          <p>Help with transfers and accounts.</p>
+          <a href="mailto:support@ironpost.example">support@ironpost.example</a>
+        </article>
+        <article class="method">
+          <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+          <h2>Security reports</h2>
+          <p>Found a vulnerability? Tell us privately.</p>
+          <a href="mailto:security@ironpost.example">security@ironpost.example</a>
+        </article>
+    </div>
+    <div class="wrap contact">
+      <form action="#" method="post">
+        <div><label for="name">Name</label><input id="name" name="name" type="text" required></div>
+        <div><label for="email">Work email</label><input id="email" name="email" type="email" required></div>
+        <div><label for="topic">Topic</label>
+          <select id="topic" name="topic"><option>Pricing and plans</option><option>Book a demo</option><option>Technical support</option><option>Something else</option></select></div>
+        <div><label for="msg">Message</label><textarea id="msg" name="message" rows="5" required></textarea></div>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+      <aside aria-label="What happens next">
+        <h2>What happens next</h2>
+        <ol class="next-steps">
+          <li><span class="step-num">1</span><span>We read your message the same day.</span></li>
+          <li><span class="step-num">2</span><span>A member of the team replies within one working day.</span></li>
+          <li><span class="step-num">3</span><span>If you want one, we book a 20-minute demo call.</span></li>
+        </ol>
+        <p><i class="fa-regular fa-clock" aria-hidden="true"></i>Mon&ndash;Fri, 9:00&ndash;18:00 (CET)</p>
+        <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Barcelona, Spain</p>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 Ironpost. All rights reserved.</p>
+  </footer>
+</body>
+</html>
