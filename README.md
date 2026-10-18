@@ -98,12 +98,10 @@ HTML validated with <https://validator.w3.org/> : Document checking completed. N
 
 Process followed: **Think → Try → Ask AI → Understand → Test → Accept, Modify or Reject**.
 
-| # | Stage | What we thought or tried first | What we asked the AI | What it answered (summary) | Decision (accept / modify / reject) and why |
-|---|---|---|---|---|---|
-| 1 | Idea review after team meeting | SaaS Company in cibersecurity would match the design | Review and expand our idea | AI suggested names | We didnt like them and asked it to suggest more with futher indications | We chose one |
-| 2 | Main site | Asked AI to suggest a website structure and content | Corrected and specified what we wanted | Asked AI to create an HTML/CSS site with the specifications | Asked AI to correct content, structure and style to our needs and judgment | Multiple iterations with AI to modify the website to the finished product
-| 3 | Images | Asked AI to create images for the pages | It only placed icons so we asked for more detailed illustrations to give context to the product | AI created illustrations | Iterated on what should appear on the images, a slogan text for context | We checked the adjustments and asked for corrected paddings
-| 4 | Final review of our work | Asked AI to self-check the work based on given specifications | Reviewed the page and detected errors (paddings, adaptability, horizontal scroll...) | Iterated with AI to fix mistakes | Final check before publishing |
+| 1 | Idea review after team meeting | A cybersecurity SaaS company would match the design | Review and expand our idea | AI suggested names | We didn't like them and asked for more with further indications; we chose one |
+| 2 | Main site | Asked AI to suggest a website structure and content | Corrected and specified what we wanted | Asked AI to create an HTML/CSS site with the specifications | Asked AI to correct content, structure and style to our needs and judgment; multiple iterations until the finished product |
+| 3 | Images | Asked AI to create images for the pages | It only placed icons, so we asked for more detailed illustrations to give context to the product | AI created illustrations | Iterated on what should appear in the images, with a slogan for context; we checked the adjustments and asked for corrected paddings |
+| 4 | Final review of our work | Asked AI to self-check the work based on the given specifications | Reviewed the page and detected errors (paddings, adaptability, horizontal scroll...) | Iterated with AI to fix mistakes | Final check before publishing |
 
 ## Known limitations
 
