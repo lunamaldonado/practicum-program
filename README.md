@@ -3,15 +3,15 @@
 Responsive website for **Ironpost**, an imaginary SaaS company that offers secure, end-to-end encrypted file transfer for teams.
 Built as the CSS group assignment: *Responsive Client Website with AI-Assisted Development*.
 
-**Live site:** `https://<your-username>.github.io/<repository-name>/` *(optional, see GitHub Pages)*
+**Live site:** `https://lunamaldonado.github.io/practicum-program/`
 
 ## Team
 
 | Name | GitHub | Main contributions |
 |---|---|---|
-| Luna | @username | landing page, pricing page, contact page, HTML + CSS |
+| Luna | @lunamaldonado | landing page, pricing page, contact page, HTML + CSS |
 | Ulugbek | @username | responsive layout, testing, README |
-| Tehj | @username |  landing page, feature page, burger menu |
+| Tehj | @t3hj |  landing page, feature page, burger menu |
 
 ## Pages
 
